@@ -6,7 +6,7 @@ namespace Pluralsight_CommandPattern
     {
         static void Main(string[] args)
         {
-            ProgramWithoutPattern.Run(args);
+            ProgramWithDesignPattern.Run(args);
             Console.ReadKey();
         }
     }

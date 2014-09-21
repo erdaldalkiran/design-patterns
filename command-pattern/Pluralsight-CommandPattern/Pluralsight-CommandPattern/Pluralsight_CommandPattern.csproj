@@ -41,8 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandParser.cs" />
     <Compile Include="CommandProcessor.cs" />
+    <Compile Include="Commands\CreateOrderCommand.cs" />
+    <Compile Include="Commands\ICommand.cs" />
+    <Compile Include="Commands\ICommandFactory.cs" />
+    <Compile Include="Commands\NullCommand.cs" />
+    <Compile Include="Commands\PurchaseOrderCommand.cs" />
+    <Compile Include="Commands\ShipOrderCommand.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProgramWithDesignPattern.cs" />
     <Compile Include="ProgramWithoutPattern.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
